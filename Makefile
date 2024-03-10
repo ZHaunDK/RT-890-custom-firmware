@@ -17,7 +17,7 @@ ENABLE_SPECTRUM_PRESETS		?= 1
 # FM radio = 2.6 kB
 ENABLE_FM_RADIO			?= 1
 # Register Editor = .5 kB
-ENABLE_REGISTER_EDIT		?= 0
+ENABLE_REGISTER_EDIT		?= 1
 # Scanlist membership display - 252 B
 ENABLE_SCANLIST_DISPLAY		?= 1
 # Space saving options
