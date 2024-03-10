@@ -60,6 +60,7 @@ void DISPLAY_DrawRectangle1(uint8_t X, uint8_t Y, uint8_t H, uint8_t W, uint16_t
 	DISPLAY_Fill(X, X + W - 1, Y, Y + H - 1, Color);
 }
 
+//https://rgbcolorpicker.com/565
 void UI_SetColors(uint8_t DarkMode)
 {
 	if (DarkMode) {
@@ -71,7 +72,7 @@ void UI_SetColors(uint8_t DarkMode)
 	}
 	COLOR_RED   = COLOR_RGB(31,  0,  0);
 	COLOR_GREEN = COLOR_RGB( 0, 63,  0);
-	COLOR_BLUE  = COLOR_RGB( 0,  0, 31);
+	COLOR_BLUE  = COLOR_RGB( 10,  39, 31);
 	COLOR_GREY  = COLOR_RGB(16, 32, 16);
 
 	gColorBackground = COLOR_BACKGROUND;
